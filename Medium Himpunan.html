@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Matematika Jenjang SMA Bagian Himpunan (#02)</title>
+
+<style>
+body{
+margin:0;
+overflow:hidden;
+font-family: Arial;
+}
+
+.container{
+display:flex;
+width:300%;
+transition:0.5s;
+}
+
+.page{
+width:100vw;
+height:100vh;
+padding:40px;
+box-sizing:border-box;
+}
+
+.page1
+.page2
+.page3{background: transparent;
+}
+</style>
+
+</head>
+
+<body>
+
+<link rel="stylesheet" href="style.css">
+<div class="container" id="slide">
+
+<div class="page page1">
+<h1><i>Matematika Jenjang SMA Bagian Himpunan (#02)</i></h1>
+<h2>Halaman 1</h2>
+<p>Assalamualaikum Wr. Wb.
+
+Sebagai awalan, marilah kita berdoa kepada Tuhan Yang Maha Esa agar diberikan kelancaran dalam belajar serta kemudahan dalam menuntut ilmu.
+
+Saya selaku pembuat E-Book Matematika ingin mengucapkan selamat datang serta terima kasih kepada para pembaca yang telah berkenan membaca E-Book ini.
+
+Tanpa berlama-lama lagi, silakan membaca berbagai materi matematika yang telah saya pelajari dan rangkum dalam E-Book ini. Semoga dapat menambah pengetahuan serta membantu dalam memahami matematika dengan lebih baik.</p>
+<h3>Bab Lanjutan Himpunan (Tingkat Menengah)</h3>
+<p>Matematika adalah ilmu yang mempelajari pola, hubungan, struktur, dan perhitungan menggunakan angka dan simbol. Matematika digunakan untuk memecahkan berbagai masalah dalam kehidupan sehari-hari seperti menghitung jarak, keuangan, peluang, hingga teknologi.<br>
+
+Contoh penggunaan:<br>
+*Menghitung luas tanah<br>
+*Mengatur keuangan<br>
+*Menghitung peluang dalam permainan<br>
+*Digunakan dalam komputer dan teknologi</p>
+<p><strong>1.Himpunan Bagian (Subset)</strong></p>
+<p>Himpunan A disebut himpunan bagian dari B jika setiap anggota A juga merupakan anggota B.</p>
+<p>Ditulis:</p>
+<p>A ⊂ B</p>
+<p>Contoh soalnya:</p>
+<p>A = {1,2}</p>
+<p>B = {1,2,3,4}</p>
+<p>Karena semua anggota A ada di B maka :</p>
+<p>A ⊂ B</p>
+<br>
+<p><strong>2.Banyaknya Himpunan Bagian</strong></p>
+<p>Jika suatu himpunan memiliki n anggota, maka jumlah himpunan bagiannya adalah:</p>
+<p>2<sup>n</sup></p>
+<p>Mengapa rumusnya 2<sup>n</sup>?</p>
+<p>Setiap anggota memiliki 2 kemugnkinan:<br>
+*Dipilih masuk himpunan bagian<br>
+*Tidak dipilih</p>
+<p>Karena setiap Elemen memiliki dua pilihan, Maka total kemungkinan adalah 2<sup>n</sup>.</p>
+<br>
+<p>Contoh:</p>
+<p>A = {a,b,c}</p>
+<p>Jumlah anggota = 3</p>
+<p>Jumlah himpunan bagian:</p>
+<p>2<sup>3</sup> = 8</p>
+<p>∅<br>
+{a}<br>
+{b}<br>
+{c}<br>
+{a,b}<br>
+{a,c}<br>
+{b,c}<br>
+{a,b,c}</p>
+<br>
+<p><strong>3.Himpunan kuasa (Power set)</strong></p>
+<p>Himpunan kuasa adalah himpunan yang berisi semua himpunan bagian dari suatu himpunan</p>
+<p>Dilambangkan</p>
+<p>P(A)</p>
+<p>Contoh:</p>
+<p>A = {1,2}</p>
+<p>Himpunan kuasanya</p>
+<p>P(A) = {∅,{1},{2},{1,2}}</p>
+<p>Jumlah anggotanya = 2, Maka</p>
+<p>4 = 2<sup>2</sup></p> 
+<div style="height: 5px; background:black;"></div>
+<br>
+<div class="nav-bawah">
+<button onclick="geser(1)">Next ➡️</button>
+</div>
+</div>
+
+<div class="page page2">
+<h2>Halaman 2</h2>
+<p><strong>4.Pembuktian Identitas Himpunan</strong></p>
+<p>Pada tingkat menengah, siswa mulai diminta membuktikan kesamaan dua bentuk himpunan</p>
+<p>Contoh:</p>
+<p>Buktikan!</p>
+<p>A ∩(B ∪ C) = (A ∩ B)∪(A ∩ C)</p>
+<p>Penjelasan Konsep:</p>
+<p>Jika suatu elemen berada di:</p>
+<p>A ∩(B ∪ C)</p>
+<p>Berarti:</p>
+<p>*Elemen tersebut berada di A<br>
+*Dan berada di B atau C</p>
+<p>Maka kemungkinan:</p>
+<p>*Elemen berada di A dan B atau<br>
+*Elemen berada di A dan C</p>
+<p>Sehingga hasilnya:</p>
+<p>(A ∩ B)∪(A ∩ C) </p>
+<p>Ini disebut hukum distributif.</p>
+<br>
+<p><strong>5.Prinsip Inklusi-Eksklusi</strong></p>
+<p>Konsep ini digunakan untuk menghitung jumlah anggota gabungan beberapa himpunan</p>
+<P>Untuk dua himpunan: n(A ∪ B) = n(A) + n(B) - n(A ∩ B)</P>
+<p>Untuk tiga himpunan: n(A ∪ B ∪ C) =
+n(A) + n(B) + n(C)
+- n(A ∩ B)
+- n(A ∩ C)
+- n(B ∩ C)
++ n(A ∩ B ∩ C)</p>
+<br>
+<p><strong>6.Himpunan Saling Lepas</strong></p>
+<p>Dua himpunan disebut saling lepas jika tidak memiliki anggota yang sama</p>
+<p>Ditulis:</p>
+<p>A ∩ B = ∅</p>
+<p>Contoh:</p>
+<p>A = {1,2}</p>
+<p>B = {3,4}</p>
+<p>Karena tidak ada anggota yang sama maka:</p>
+<p>A ∩ B = ∅</p>
+<br>
+<div style="height: 5px; background:black;"></div>
+<div class="nav-bawah">
+<button onclick="geser(2)">Next ➡️</button>
+</div>
+</div>
+
+<div class="page page3">
+<h2>Halaman 3</h2>
+<p><strong>7.Partisi Himpunan</strong></p>
+<p>Partisi adalah pembagian suatu himpunan menjadi beberapa himpunan yang tidak saling beririsan </p>
+<p>Contoh:</p>
+<p>A = {1,2,3,4}</p>
+<p>Partisi yang mungkin:</p>
+<p>{1,2} dan {3,4}</p>
+<p>jadi bila {1,2} ∪ {3,4} = {1,2,3,4}&rarr; kembali ke A</p>
+<p>Syarat partisi:</p>
+<p>&#8226;Tidak saling beririsan<br>
+&#8226;Gabungannya kembali menjadi himpunan semula</p>
+<br>
+<p><strong>8.Jenis Soal Tingkat Menengah</strong></p>
+<p>Biasanya muncul dalam bentuk:</p>
+<p>1.Soal banyak himpunan bagian</p>
+<p>Contoh:</p>
+<p>A memiliki 5 anggota</p>
+<p>Berapa jumlah himpunan bagiannya?</p>
+<p>2<sup>5</sup> = 32</p>
+<p>2.Soal himpunan kuasa</p>
+<p>Contoh:</p>
+<p>A = {1,2,3}</p>
+<p>Cari P(A)</p>
+<p>3.Pembuktian identitas Himpunan</p>
+<p>Contoh:</p>
+<p>Buktikanlah:</p>
+<p>(A ∪ B)∩ A = A</p>
+<p>4.Soal cerita dengan tiga himpunan</p>
+<p>Contoh:</p>
+<p>&#8226;Siswa suka matematika<br>
+    &#8226;Siswa suka fisika<br>
+    &#8226;Siswa suka kimia</p>
+<p>Biasanya menggunakan diagram venn 3 himpunan</p>
+<br>
+<p><strong>9.Soal Operasi Himpunan Campuran (Aljabar Himpunan)</strong></p>
+<p>Jenis ini bukan sekedar hitung jumlah, tetapi menyederhanakan ekspresi himpunan seperti aljabar biasa</p>
+<p>Bentuk umum soal:</p>
+<p>Biasanya berupa:</p>
+<p>&#8226;Campuran ∪,∩ komplemen<br>
+    &#8226;Harus disederhanakan<br>
+    &#8226;Atau dibuktikan sama</p>
+<p>(A ∪ B) ∩ A</p>
+<p>Atau</p>
+<p>(A ∩ B) ∪ (A ∩ B<sup>c</sup>)</p>
+<p>Konsep Penting</p>
+<p>Di sini kamu pakai hukum-hukum himpunan, seperti:<br>
+    &#8226;Distributif<br>
+    &#8226;Identitas<br>
+    &#8226;Komplemen</p>
+<p>Contoh Soal 1</p>
+
+<p>Sederhanakan:</p>
+<p>(A ∪ B) ∩ A</p>
+
+<p><b>Cara berpikir:</b></p>
+<p>Kita cari elemen yang:</p>
+<p>&#8226; ada di A ∪ B</p>
+<p>&#8226; DAN juga ada di A</p>
+<p>Kalau sudah di A, maka otomatis masuk hasil.</p>
+<p>Hasil:</p>
+<p>(A ∪ B) ∩ A = A</p>
+<p>Contoh soal 3(Sedikit lebih sulit) </p>
+<p>Sederhanakan:</p>
+<p>(A ∪ B)∩(A ∪ B<sup>c</sup>)</p>
+<p>Gunakan Distrbutif:</p>
+<p>A ∪(B ∩ B<sup>c</sup>)</p>
+<p> Karena:</p>
+<p>B ∩ B<sup>c</sup> = ∅</p>
+<p>Maka:</p>
+<p>A ∪ ∅ = A</p>
+<br>
+<div style="height: 5px; background:black;"></div>
+<div class="nav-bawah">
+<button onclick="geser(0)">⬅️ Kembali</button>
+</div>
+</div>
+
+</div>
+
+<script>
+function geser(n){
+document.getElementById("slide").style.transform = "translateX(-" + (n*100) + "vw)";
+}
+</script>
+</body>
+</html>
